@@ -4,7 +4,7 @@ def Binary_Search(list, search):
     max = len(list) - 1
 
     if max <= min or search not in list:
-        print "Unable to search the element. List is empty or Element is not present in list"
+        print "Unable to search the element. Either list is empty or element is not present in list"
 
     while min <= max:
         mid = (min + max ) / 2
