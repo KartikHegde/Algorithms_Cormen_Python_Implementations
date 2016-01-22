@@ -1,10 +1,13 @@
+#Python Implementation of Binary Search
+
+
 def Binary_Search(list, search):
 
     min = 0
     max = len(list) - 1
 
     if max <= min or search not in list:
-        print "Unable to search the element. Either list is empty or element is not present in list"
+        print "Unable to search the element. Either list is empty or element is not present in the list"
 
     while min <= max:
         mid = (min + max ) / 2
