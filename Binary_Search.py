@@ -1,4 +1,4 @@
-#Python Implementation of Binary Search
+#Implementation of Binary Search
 
 # Given : 1. A sorted array
 #         2. A key to search
@@ -6,6 +6,8 @@
 #Logic : Compare the key againast middle term
 # Too small, Go left
 # Too large, Go right
+
+# Output : Search element's Index position
 
 
 def Binary_Search(list, search):
@@ -27,8 +29,11 @@ def Binary_Search(list, search):
             break
 
 # List of prime numbers
+
 list = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37,
 		41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
-search = 67
+
+my_input = raw_input("Enter the element you want to search\n")
+search = int(my_input)
 
 Binary_Search(list,search)
