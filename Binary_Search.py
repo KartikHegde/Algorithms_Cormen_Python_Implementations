@@ -9,21 +9,23 @@
 
 # Output : Search element's Index position
 
+# Running time : log n to the base 2
+
 
 def Binary_Search(list, search):
 
-    min = 0
-    max = len(list) - 1
+    low = 0
+    high = len(list) - 1
 
-    if max <= min or search not in list:
+    if low > high or search not in list:
         print "Unable to search the element. Either list is empty or element is not present in the list"
 
-    while min <= max:
-        mid = (min + max ) / 2
+    while low <= high:
+        mid = (low + high ) / 2
         if search > list[mid]:
-            min = mid + 1
+            low = mid + 1
         elif search < list[mid]:
-            max = mid -1
+            high = mid -1
         else:
             print "Element",search,"found at position", mid
             break
