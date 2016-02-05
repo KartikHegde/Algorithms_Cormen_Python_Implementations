@@ -1,5 +1,12 @@
 #Python Implementation of Binary Search
 
+# Given : 1. A sorted array
+#         2. A key to search
+
+#Logic : Compare the key againast middle term
+# Too small, Go left
+# Too large, Go right
+
 
 def Binary_Search(list, search):
 
