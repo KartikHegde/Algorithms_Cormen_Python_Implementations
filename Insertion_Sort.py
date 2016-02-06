@@ -9,6 +9,7 @@ It also runs on linear time for partially sorted arrays
 
 Good to use if array size is small
 
+It holds stability by preserving the sorting of key pairs
 '''
 
 def InsertionSort(my_array):
