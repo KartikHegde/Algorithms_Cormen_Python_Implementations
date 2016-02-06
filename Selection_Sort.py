@@ -1,8 +1,14 @@
-# Selection_Sort Implementaion
+'''
 
-# Let the first element in the array be the least. Scan through rest of the array and if
-# a value less than least is found, make it the new least And swap with old least
+Selection_Sort Implementation
 
+Let the first element in the array be the least. Scan through rest of the array and if
+a value less than least is found, make it the new least And swap with old least
+
+Selection_Sort running time needs N-1 + N-2 + ..... Comparisons and N exchanges which is a quadratic time.
+Thus the running time is N^2
+
+'''
 
 def Selectionsort( array ):
   for i in range( len( array ) ):
