@@ -8,7 +8,10 @@ a value less than least is found, make it the new least And swap with old least
 Selection_Sort running time needs N-1 + N-2 + ..... Comparisons and N exchanges which is a quadratic time.
 Thus the running time is N^2 in all conditions , no matter if array is sorted or partially sorted.
 
-Fails stability by preserving the sorting of key pairs
+Fails stability by not preserving the sorting of key pairs.
+
+Best case : N^2
+Worst Case : N^2  ------ No matter however the way array is arranged initially
 '''
 
 def Selectionsort( array ):
