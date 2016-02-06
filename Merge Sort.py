@@ -1,5 +1,4 @@
 '''
-
 Implementation of Merge_Sort
 
 1. Divide the list into 2 halfs
