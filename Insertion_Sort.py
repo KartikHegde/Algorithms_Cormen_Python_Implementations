@@ -8,6 +8,7 @@ it requires N-1 comparisons but 0 exchanges which is the best case.
 It also runs on linear time for partially sorted arrays
 
 Good to use if array size is small
+
 '''
 
 def InsertionSort(my_array):
