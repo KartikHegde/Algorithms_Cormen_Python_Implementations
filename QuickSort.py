@@ -1,3 +1,24 @@
+''' Using the extra array makes the task easier. But cost is too much
+
+The reason Quick-Sort is preferred over merge sort even though the in best case scenario for merge sort is
+faster than quick sort is space complexity. Plus less data movement even if no of comparisons of quick sort
+is 39% percent more than Merge sort.
+
+Quick sort cost very less w.r.t space as its an in-place sorting algorithm.
+
+But its not a stable Algorithm w.r.t key pairs sorting. and not suitable for small array size
+
+Running time is : N log N
+
+Best case : N log N
+Worst case : N^2
+Average Case : N log N
+
+
+Improve the performance by median finding - and choosing median as pivot is best option
+Finding the median of median sample.
+'''
+
 def merge(list):
     if len(list) < 2:
         return list
@@ -25,4 +46,5 @@ def sort(left,right):
 
 
 list=[9,7,5,11,12,2,14,3,10,6]
-print merge(list)
+print "List before sorting", list
+print "List after sorting",merge(list)
