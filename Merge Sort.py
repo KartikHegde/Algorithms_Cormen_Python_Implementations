@@ -19,6 +19,8 @@ Upper bount = N log N
 
 Hence Merge sort is an optimal Algorithm w.r.t comparisons but not w.r.t space
 
+Also, Merge sort holds stability by preserving the sorting of key pairs along with Insertion sort.
+
 '''
 
 def merge(left, right):
