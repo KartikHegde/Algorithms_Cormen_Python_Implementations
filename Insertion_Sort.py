@@ -10,6 +10,9 @@ It also runs on linear time for partially sorted arrays
 Good to use if array size is small
 
 It holds stability by preserving the sorting of key pairs
+
+worst case : N^2
+Best case : N      --- Already sorted array or partially sorted array
 '''
 
 def InsertionSort(my_array):
