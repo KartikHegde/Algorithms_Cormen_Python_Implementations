@@ -1,7 +1,7 @@
 ''' Using the extra array makes the task easier. But cost is too much
 
-The reason Quick-Sort is preferred over merge sort even though the in best case scenario for merge sort is
-faster than quick sort is space complexity. Plus less data movement even if no of comparisons of quick sort
+The reason Quick-Sort is preferred over merge sort even though the worst case scenario for merge sort is
+faster than worst case scenario for quick sort is space complexity. Plus less data movement even if no of comparisons of quick sort
 is 39% percent more than Merge sort.
 
 Quick sort cost very less w.r.t space as its an in-place sorting algorithm.
