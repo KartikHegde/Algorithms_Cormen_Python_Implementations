@@ -1,5 +1,11 @@
-# Insertion_Sort Implementation
+''' Insertion_Sort Implementation
 
+Analysis : Approx 1/4th of N^2 compares and 1/4th of N^2 exchanges which is worse than selection sort
+
+However it des depend on initial data set of the given array. If the array is sorted then
+it requires N-1 comparisons but 0 exchanges which is the best case.
+
+It also on linear time for partially sorted arrays '''
 
 def InsertionSort(my_array):
    for i in range(0,len(my_array)):
