@@ -17,7 +17,7 @@ recursive calls.
 Lower bound = N log N
 Upper bount = N log N
 
-Hence Merge sort is an optimal Algorithm
+Hence Merge sort is an optimal Algorithm wr.t comparisons but not w.r.t space
 
 '''
 
