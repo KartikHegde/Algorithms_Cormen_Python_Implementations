@@ -5,7 +5,10 @@ Analysis : Approx 1/4th of N^2 compares and 1/4th of N^2 exchanges which is wors
 However it des depend on initial data set of the given array. If the array is sorted then
 it requires N-1 comparisons but 0 exchanges which is the best case.
 
-It also runs on linear time for partially sorted arrays '''
+It also runs on linear time for partially sorted arrays
+
+Good to use if array size is small
+'''
 
 def InsertionSort(my_array):
    for i in range(0,len(my_array)):

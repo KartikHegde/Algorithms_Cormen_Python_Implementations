@@ -6,6 +6,20 @@ Implementation of Merge_Sort
 2. Recursively sort each half.
 3. Merge 2 halfs
 
+
+Running time : N log N
+
+However, it needs extra space to hold the merged array from subarray's. Thus it doesnt belong
+to category of in-place memory algorithms like shell, insertion or selection.
+
+And its complicated to use, if sub-array size is very small as there are too much overhead because of
+recursive calls.
+
+Lower bound = N log N
+Upper bount = N log N
+
+Hence Merge sort is an optimal Algorithm
+
 '''
 
 def merge(left, right):
