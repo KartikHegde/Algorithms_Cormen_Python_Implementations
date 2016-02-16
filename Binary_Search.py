@@ -11,6 +11,10 @@
 
 # Running time : log n to the base 2
 
+# When used : 1. Switch cases 2. Best to access ordered data which doesnt change often 3. Debuggiing
+
+# Data Structure Used : Array
+
 
 def Binary_Search(list, search):
 
