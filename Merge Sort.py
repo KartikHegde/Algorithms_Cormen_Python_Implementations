@@ -37,7 +37,6 @@ def merge(left, right):
         if left[n] <= right[m]:
             result_list.append(left[n])
             n += 1
-
         else:
             result_list.append(right[m])
             m += 1
