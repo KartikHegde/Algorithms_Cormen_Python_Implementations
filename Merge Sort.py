@@ -6,7 +6,9 @@ Implementation of Merge_Sort
 3. Merge 2 halfs
 
 
-Running time : N log N
+Time Complexity : O(n log n)
+
+Space Complexity: O(n)
 
 However, it needs extra space to hold the merged array from subarray's. Thus it doesnt belong
 to category of in-place memory algorithms like shell, insertion or selection.
@@ -14,16 +16,16 @@ to category of in-place memory algorithms like shell, insertion or selection.
 And its complicated to use, if sub-array size is very small as there are too much overhead because of
 recursive calls.
 
-Lower bound = N log N
-Upper bount = N log N
+Lower bound = n log n
+Upper bount = n log n
 
 Hence Merge sort is an optimal Algorithm w.r.t comparisons but not w.r.t space
 
 Also, Merge sort holds stability by preserving the sorting of key pairs along with Insertion sort.
 
-
-worst case : N log N
-Best case : N log N
+Time Complexity :
+worst case : O(n log n)
+Best case : O(n log n)
 
 '''
 
