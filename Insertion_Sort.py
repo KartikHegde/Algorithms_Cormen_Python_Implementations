@@ -11,10 +11,9 @@ Good to use if array size is small
 
 It holds stability by preserving the sorting of key pairs
 
-Time Complexity :
-
-worst case : N^2
-Best case : N      --- Already sorted array or partially sorted array
+Time Complexity:
+Worst Case : O(n**2)
+Best case : O (N)      --- Already sorted array or partially sorted array
 
 Space Complexity: O(n) total
 

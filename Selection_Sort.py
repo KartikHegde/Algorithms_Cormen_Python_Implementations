@@ -18,6 +18,7 @@ def Selectionsort( array ):
   for i in range( len( array ) ):
     least_value = i
     for k in range( i + 1 , len( array ) ):
+
       if array[k] < array[least_value]:
         least_value = k
 
