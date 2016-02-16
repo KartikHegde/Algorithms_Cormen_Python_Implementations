@@ -10,8 +10,12 @@ Thus the running time is N^2 in all conditions , no matter if array is sorted or
 
 Fails stability by not preserving the sorting of key pairs.
 
-Best case : N^2
-Worst Case : N^2  ------ No matter however the way array is arranged initially
+Time Complexity :
+
+Best case : O(n**2)
+Worst Case : O(n**2)  ------ No matter however the way array is arranged initially
+
+Space Complexity: O(1)
 '''
 
 def Selectionsort( array ):
