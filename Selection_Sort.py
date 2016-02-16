@@ -6,7 +6,7 @@ Let the first element in the array be the least. Scan through rest of the array 
 a value less than least is found, make it the new least And swap with old least
 
 Selection_Sort running time needs N-1 + N-2 + ..... Comparisons and N exchanges which is a quadratic time.
-Thus the running time is N^2 in all conditions , no matter if array is sorted or partially sorted.
+Thus the running time is n**2 in all conditions , no matter if array is sorted or partially sorted.
 
 Fails stability by not preserving the sorting of key pairs.
 
