@@ -1,19 +1,26 @@
-#Implementation of Binary Search
+__author__="Karthik"
+
+'''Implementation of Binary Search
 
 # Given : 1. A sorted array
 #         2. A key to search
 
-#Logic : Compare the key againast middle term
-# Too small, Go left
-# Too large, Go right
+Logic : Compare the key againast middle term
+Too small, Go left
+Too large, Go right
 
-# Output : Search element's Index position
+Output : Search element's Index position
 
-# Running time : log n to the base 2
+Running time :
+Worst Case : O(log n to the base 2)
+Average Case : O(log n to the base 2)
+Best Case : O(1)
 
-# When used : 1. Switch cases 2. Best to access ordered data which doesnt change often 3. Debuggiing
+Worst case space complexity : O(1)
 
-# Data Structure Used : Array
+When used : 1. Switch cases 2. Best to access ordered data which doesnt change often 3. Debuggiing
+
+Data Structure Used : Array  '''
 
 
 def Binary_Search(list, search):
