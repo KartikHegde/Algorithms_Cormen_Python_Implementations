@@ -29,6 +29,6 @@ def qsort(L):
     return qsort(small) + medium + qsort(large)
 
 
-my_list = [3,2,6,9,4,1,8]
+my_list = [3,2,6,9,4,1,8,7,14,10,5]
 print "List before sort",my_list
 print "List after Sort",qsort(my_list)
