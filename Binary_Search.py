@@ -16,7 +16,7 @@ Worst Case : O(log n to the base 2)
 Average Case : O(log n to the base 2)
 Best Case : O(1)
 
-Worst case space complexity : O(1)
+Worst case space complexity : O(1) --  O(h) -- h is the hight of the stack if solved using recursion
 
 When used : 1. Switch cases 2. Best to access ordered data which doesnt change often 3. Debuggiing
 
