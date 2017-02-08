@@ -1,4 +1,4 @@
-__author__="Karthik"
+__author__ = "Karthik"
 
 '''Implementation of Binary Search
 
@@ -24,29 +24,33 @@ Data Structure Used : Array  '''
 
 
 def Binary_Search(list, search):
-
     low = 0
     high = len(list) - 1
 
-    if low > high or search not in list:
-        print "Unable to search the element. Either list is empty or element is not present in the list"
+    if len(list) == 0:
+        print "Unable to search the element. List is empty."
 
     while low <= high:
-        mid = (low + high ) / 2
+        mid = (low + high) / 2
         if search > list[mid]:
             low = mid + 1
         elif search < list[mid]:
-            high = mid -1
+            high = mid - 1
         else:
-            print "Element",search,"found at position", mid
+            print "Element", search, "found at position", mid
             break
+
+    if low > high:
+        print "Not Found"
 
 # List of prime numbers
 
-list = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37,
-		41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+list = [2, 3, 5, 7, 11,13]
 
-my_input = raw_input("Enter the element you want to search\n")
-search = int(my_input)
+try:
+    my_input = raw_input("Enter the element you want to search\n")
+    search = int(my_input)
+    Binary_Search(list, search)
+except:
+    print "Wrong Input"
 
-Binary_Search(list,search)

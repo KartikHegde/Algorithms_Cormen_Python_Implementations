@@ -29,8 +29,8 @@ Best case : O(n log n)
 
 '''
 
-def merge(left, right):
 
+def merge(left, right):
     result_list = []
     n, m = 0, 0
     while n < len(left) and m < len(right):
@@ -40,7 +40,6 @@ def merge(left, right):
         else:
             result_list.append(right[m])
             m += 1
-
 
     result_list += left[n:]
     result_list += right[m:]
@@ -56,6 +55,7 @@ def sort(my_list):
     right = sort(my_list[middle:])
     return merge(left, right)
 
+
 my_list = []
 
 while True:
@@ -69,4 +69,4 @@ while True:
         print "Error"
 
 print "List before sort", my_list
-print "List after sort", sort (my_list)
+print "List after sort", sort(my_list)

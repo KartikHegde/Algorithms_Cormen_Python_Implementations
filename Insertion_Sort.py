@@ -1,4 +1,4 @@
-''' Insertion_Sort Implementation
+""" Insertion_Sort Implementation
 
 Analysis : Approx 1/4th of N^2 compares and 1/4th of N^2 exchanges which is worse than selection sort
 
@@ -16,31 +16,22 @@ Worst Case : O(n**2)
 Best case : O (N)      --- Already sorted array or partially sorted array
 
 Space Complexity: O(n) total
+"""
 
 
-'''
+def insertionSort(alist):
+    for index in range(1, len(alist)):
 
-def InsertionSort(my_array):
-   for i in range(0,len(my_array)):
-        for j in range(i,0,-1):
-            if my_array[j]<my_array[j-1]:
-                swap (my_array, j , j-1)
-            else:
-                break
+        currentvalue = alist[index]
+        position = index
 
+        while position > 0 and alist[position - 1] > currentvalue:
+            alist[position] = alist[position - 1]
+            position -= 1
 
-def swap(list,x,y):
-    temp = list[x]
-    list[x] = list[y]
-    list[y] = temp
+        alist[position] = currentvalue
 
 
-my_list = [54,26,93,17,77,31,44,55,20]
-print "Array before the sorting:", my_list
-InsertionSort(my_list)
-print "Array after the sorting:", my_list
-
-
-
-
-
+alist = [7,10,5,3]
+insertionSort(alist)
+print(alist)
