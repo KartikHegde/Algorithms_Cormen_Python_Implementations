@@ -11,7 +11,7 @@ But its not a stable Algorithm w.r.t key pairs sorting. and not suitable for sma
 Time Complexity : O(n log n)
 
 Best case : O(n log n)
-Worst case : O(n**2)
+Worst case : O(n log n)
 Average Case : O(n log n)
 
 
